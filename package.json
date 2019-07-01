@@ -1,0 +1,30 @@
+{
+  "name": "lock-magic",
+  "version": "1.0.0",
+  "description": "OVERVIEW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaydas/LockMagic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijaydas/LockMagic/issues"
+  },
+  "homepage": "https://github.com/vijaydas/LockMagic#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "ical": "^0.6.0",
+    "knex": "^0.18.1",
+    "sqlite3": "^4.0.9"
+  }
+}
