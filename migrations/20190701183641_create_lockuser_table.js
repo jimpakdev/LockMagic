@@ -27,7 +27,7 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-    return knex.schema.dropTableIfExists("lockusers");
+    return knex.schema.dropTableIfExists("lock_users");
 };
 
 
