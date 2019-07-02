@@ -1,10 +1,33 @@
 
 exports.up = function(knex) {
-  
+    return knex.schema.createTable("lock_users", lockUsers => {
+        lockUsers.increments();
+    
+        lockUsers.string("name", 128)
+          .notNullable()
+
+        lockUsers.string("start_date", 128)
+          .notNullable()
+
+          lockUsers.string("start_time", 128)
+          .notNullable()
+
+          lockUsers.string("exp_date", 128)
+          .notNullable()
+
+          lockUsers.string("exp_time", 128)
+          .notNullable()
+
+          lockUsers.string("lock_id", 128)
+          .notNullable()
+
+          lockUsers.integer("pass_code")
+          .notNullable()
+      });
 };
 
 exports.down = function(knex) {
-  
+    return knex.schema.dropTableIfExists("lockusers");
 };
 
 
