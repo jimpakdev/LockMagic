@@ -25,7 +25,7 @@
     "express": "^4.17.1",
     "helmet": "^3.18.0",
     "ical": "^0.6.0",
-    "knex": "^0.18.1",
+    "knex": "^2.4.0",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "sqlite3": "^4.0.9"
